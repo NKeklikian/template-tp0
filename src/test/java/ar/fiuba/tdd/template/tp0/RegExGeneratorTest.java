@@ -12,7 +12,7 @@ public class RegExGeneratorTest {
 
     private boolean validate(String regEx, int numberOfResults) {
         RegExGenerator generator = new RegExGenerator();
-        // TODO: Uncomment parameters
+        // TODO: Uncomment parameterss
         List<String> results = generator.generate(/*regEx, numberOfResults*/);
         // force matching the beginning and the end of the strings
         Pattern pattern = Pattern.compile("^" + regEx + "$");
